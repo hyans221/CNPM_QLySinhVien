@@ -32,12 +32,12 @@
             this.Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.cmbLoaiThongKe = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.btn_InBaoCao = new Guna.UI2.WinForms.Guna2Button();
             this.btn_XuatBaoCao = new Guna.UI2.WinForms.Guna2Button();
             this.btn_ThucHien = new Guna.UI2.WinForms.Guna2Button();
             this.DateTime_PhamViTG = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.lblPhamViTG = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblLoaiThongKe = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.btn_InBaoCao = new Guna.UI2.WinForms.Guna2Button();
             this.Control.SuspendLayout();
             this.Panel1.SuspendLayout();
             this.SuspendLayout();
@@ -108,28 +108,6 @@
             this.cmbLoaiThongKe.ShadowDecoration.Parent = this.cmbLoaiThongKe;
             this.cmbLoaiThongKe.Size = new System.Drawing.Size(199, 36);
             this.cmbLoaiThongKe.TabIndex = 16;
-            // 
-            // btn_InBaoCao
-            // 
-            this.btn_InBaoCao.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_InBaoCao.BorderRadius = 20;
-            this.btn_InBaoCao.CheckedState.Parent = this.btn_InBaoCao;
-            this.btn_InBaoCao.CustomImages.Parent = this.btn_InBaoCao;
-            this.btn_InBaoCao.FillColor = System.Drawing.Color.SkyBlue;
-            this.btn_InBaoCao.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_InBaoCao.ForeColor = System.Drawing.Color.White;
-            this.btn_InBaoCao.HoverState.Parent = this.btn_InBaoCao;
-            this.btn_InBaoCao.Image = global::DoAn_Nhom7_QuanLySinhVien.Properties.Resources.download;
-            this.btn_InBaoCao.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btn_InBaoCao.ImageSize = new System.Drawing.Size(35, 35);
-            this.btn_InBaoCao.Location = new System.Drawing.Point(527, 121);
-            this.btn_InBaoCao.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_InBaoCao.Name = "btn_InBaoCao";
-            this.btn_InBaoCao.ShadowDecoration.Parent = this.btn_InBaoCao;
-            this.btn_InBaoCao.Size = new System.Drawing.Size(143, 45);
-            this.btn_InBaoCao.TabIndex = 15;
-            this.btn_InBaoCao.Text = "In Báo Cáo";
-            this.btn_InBaoCao.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // btn_XuatBaoCao
             // 
@@ -208,6 +186,28 @@
             this.lblLoaiThongKe.Size = new System.Drawing.Size(83, 17);
             this.lblLoaiThongKe.TabIndex = 10;
             this.lblLoaiThongKe.Text = "Loại Thống Kê";
+            // 
+            // btn_InBaoCao
+            // 
+            this.btn_InBaoCao.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_InBaoCao.BorderRadius = 20;
+            this.btn_InBaoCao.CheckedState.Parent = this.btn_InBaoCao;
+            this.btn_InBaoCao.CustomImages.Parent = this.btn_InBaoCao;
+            this.btn_InBaoCao.FillColor = System.Drawing.Color.SkyBlue;
+            this.btn_InBaoCao.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_InBaoCao.ForeColor = System.Drawing.Color.White;
+            this.btn_InBaoCao.HoverState.Parent = this.btn_InBaoCao;
+            this.btn_InBaoCao.Image = global::DoAn_Nhom7_QuanLySinhVien.Properties.Resources.print;
+            this.btn_InBaoCao.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_InBaoCao.ImageSize = new System.Drawing.Size(35, 35);
+            this.btn_InBaoCao.Location = new System.Drawing.Point(527, 121);
+            this.btn_InBaoCao.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_InBaoCao.Name = "btn_InBaoCao";
+            this.btn_InBaoCao.ShadowDecoration.Parent = this.btn_InBaoCao;
+            this.btn_InBaoCao.Size = new System.Drawing.Size(143, 45);
+            this.btn_InBaoCao.TabIndex = 15;
+            this.btn_InBaoCao.Text = "In Báo Cáo";
+            this.btn_InBaoCao.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // frmReport
             // 

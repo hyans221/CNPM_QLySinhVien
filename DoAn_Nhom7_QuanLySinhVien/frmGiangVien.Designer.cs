@@ -35,8 +35,8 @@
             this.lblSoDienThoai = new System.Windows.Forms.Label();
             this.txtEmail = new Guna.UI2.WinForms.Guna2TextBox();
             this.lblEmail = new System.Windows.Forms.Label();
-            this.cmbKhoaID = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.lblKhoaID = new System.Windows.Forms.Label();
+            this.cmbTenKhoa = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.lblTenKhoa = new System.Windows.Forms.Label();
             this.btnXoa = new Guna.UI2.WinForms.Guna2Button();
             this.btnReset = new Guna.UI2.WinForms.Guna2Button();
             this.btnSua = new Guna.UI2.WinForms.Guna2Button();
@@ -144,22 +144,22 @@
             this.lblEmail.TabIndex = 27;
             this.lblEmail.Text = "Email";
             // 
-            // cmbKhoaID
+            // cmbTenKhoa
             // 
-            this.cmbKhoaID.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmbKhoaID.BackColor = System.Drawing.Color.Transparent;
-            this.cmbKhoaID.BorderColor = System.Drawing.Color.DodgerBlue;
-            this.cmbKhoaID.BorderRadius = 5;
-            this.cmbKhoaID.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cmbKhoaID.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbKhoaID.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbKhoaID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbKhoaID.FocusedState.Parent = this.cmbKhoaID;
-            this.cmbKhoaID.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbKhoaID.ForeColor = System.Drawing.Color.Black;
-            this.cmbKhoaID.HoverState.Parent = this.cmbKhoaID;
-            this.cmbKhoaID.ItemHeight = 30;
-            this.cmbKhoaID.Items.AddRange(new object[] {
+            this.cmbTenKhoa.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmbTenKhoa.BackColor = System.Drawing.Color.Transparent;
+            this.cmbTenKhoa.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.cmbTenKhoa.BorderRadius = 5;
+            this.cmbTenKhoa.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbTenKhoa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbTenKhoa.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbTenKhoa.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbTenKhoa.FocusedState.Parent = this.cmbTenKhoa;
+            this.cmbTenKhoa.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbTenKhoa.ForeColor = System.Drawing.Color.Black;
+            this.cmbTenKhoa.HoverState.Parent = this.cmbTenKhoa;
+            this.cmbTenKhoa.ItemHeight = 30;
+            this.cmbTenKhoa.Items.AddRange(new object[] {
             "Hindu",
             "Muslim",
             "Christian",
@@ -167,23 +167,23 @@
             "Jewish",
             "Sikh",
             "Any Other"});
-            this.cmbKhoaID.ItemsAppearance.Parent = this.cmbKhoaID;
-            this.cmbKhoaID.Location = new System.Drawing.Point(461, 108);
-            this.cmbKhoaID.Name = "cmbKhoaID";
-            this.cmbKhoaID.ShadowDecoration.Parent = this.cmbKhoaID;
-            this.cmbKhoaID.Size = new System.Drawing.Size(251, 36);
-            this.cmbKhoaID.TabIndex = 26;
+            this.cmbTenKhoa.ItemsAppearance.Parent = this.cmbTenKhoa;
+            this.cmbTenKhoa.Location = new System.Drawing.Point(461, 108);
+            this.cmbTenKhoa.Name = "cmbTenKhoa";
+            this.cmbTenKhoa.ShadowDecoration.Parent = this.cmbTenKhoa;
+            this.cmbTenKhoa.Size = new System.Drawing.Size(251, 36);
+            this.cmbTenKhoa.TabIndex = 26;
             // 
-            // lblKhoaID
+            // lblTenKhoa
             // 
-            this.lblKhoaID.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblKhoaID.AutoSize = true;
-            this.lblKhoaID.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKhoaID.Location = new System.Drawing.Point(461, 90);
-            this.lblKhoaID.Name = "lblKhoaID";
-            this.lblKhoaID.Size = new System.Drawing.Size(60, 17);
-            this.lblKhoaID.TabIndex = 24;
-            this.lblKhoaID.Text = "Khoa ID";
+            this.lblTenKhoa.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTenKhoa.AutoSize = true;
+            this.lblTenKhoa.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTenKhoa.Location = new System.Drawing.Point(461, 90);
+            this.lblTenKhoa.Name = "lblTenKhoa";
+            this.lblTenKhoa.Size = new System.Drawing.Size(63, 17);
+            this.lblTenKhoa.TabIndex = 24;
+            this.lblTenKhoa.Text = "Tên khoa";
             // 
             // btnXoa
             // 
@@ -200,6 +200,7 @@
             this.btnXoa.Size = new System.Drawing.Size(115, 43);
             this.btnXoa.TabIndex = 23;
             this.btnXoa.Text = "Xoá";
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnReset
             // 
@@ -217,6 +218,7 @@
             this.btnReset.Size = new System.Drawing.Size(115, 43);
             this.btnReset.TabIndex = 22;
             this.btnReset.Text = "Reset";
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnSua
             // 
@@ -234,6 +236,7 @@
             this.btnSua.Size = new System.Drawing.Size(115, 43);
             this.btnSua.TabIndex = 21;
             this.btnSua.Text = "Sửa";
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnThem
             // 
@@ -250,6 +253,7 @@
             this.btnThem.Size = new System.Drawing.Size(115, 43);
             this.btnThem.TabIndex = 20;
             this.btnThem.Text = "Thêm";
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // radNu
             // 
@@ -413,6 +417,7 @@
             // 
             // dgvGiangVien
             // 
+            this.dgvGiangVien.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.dgvGiangVien.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvGiangVien.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -470,6 +475,7 @@
             this.dgvGiangVien.ThemeStyle.RowsStyle.Height = 22;
             this.dgvGiangVien.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvGiangVien.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dgvGiangVien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvGiangVien_CellClick);
             // 
             // Panel1
             // 
@@ -496,8 +502,8 @@
             this.Panel3.Controls.Add(this.lblSoDienThoai);
             this.Panel3.Controls.Add(this.txtEmail);
             this.Panel3.Controls.Add(this.lblEmail);
-            this.Panel3.Controls.Add(this.cmbKhoaID);
-            this.Panel3.Controls.Add(this.lblKhoaID);
+            this.Panel3.Controls.Add(this.cmbTenKhoa);
+            this.Panel3.Controls.Add(this.lblTenKhoa);
             this.Panel3.Controls.Add(this.btnXoa);
             this.Panel3.Controls.Add(this.btnReset);
             this.Panel3.Controls.Add(this.btnSua);
@@ -554,8 +560,8 @@
         internal System.Windows.Forms.Label lblSoDienThoai;
         internal Guna.UI2.WinForms.Guna2TextBox txtEmail;
         internal System.Windows.Forms.Label lblEmail;
-        internal Guna.UI2.WinForms.Guna2ComboBox cmbKhoaID;
-        internal System.Windows.Forms.Label lblKhoaID;
+        internal Guna.UI2.WinForms.Guna2ComboBox cmbTenKhoa;
+        internal System.Windows.Forms.Label lblTenKhoa;
         internal Guna.UI2.WinForms.Guna2Button btnXoa;
         internal Guna.UI2.WinForms.Guna2Button btnReset;
         internal Guna.UI2.WinForms.Guna2Button btnSua;

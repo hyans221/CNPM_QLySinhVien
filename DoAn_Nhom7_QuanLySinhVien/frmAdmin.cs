@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace DoAn_Nhom7_QuanLySinhVien
 {
-    public partial class frmTrangChu : Form
+    public partial class frmAdmin : Form
     {
-        public frmTrangChu()
+        public frmAdmin()
         {
             InitializeComponent();
         }
 
-        private void frmTrangChu_Load(object sender, EventArgs e)
+        private void frmAdmin_Load(object sender, EventArgs e)
         {
             ShadowForm1.SetShadowForm(this);
         }
@@ -40,9 +40,14 @@ namespace DoAn_Nhom7_QuanLySinhVien
         private void btnQL_SinhVien_Click(object sender, EventArgs e)
         {
             labelTitleFrm.Text = "QUẢN LÝ SINH VIÊN";
-            container(new frmSinhVien());   
+            container(new frmSinhVien());
         }
 
+        private void btnQL_GiangVien_Click(object sender, EventArgs e)
+        {
+            labelTitleFrm.Text = "QUẢN LÝ GIẢNG VIÊN";
+            container(new frmGiangVien());
+        }
 
         private void btnDangkyHoc_Click(object sender, EventArgs e)
         {
@@ -62,6 +67,11 @@ namespace DoAn_Nhom7_QuanLySinhVien
             container(new frmMonHoc());
         }
 
+        private void btnQL_Khoa_Click(object sender, EventArgs e)
+        {
+            labelTitleFrm.Text = "QUẢN LÝ KHOA";
+            container(new frmKhoa());
+        }
 
         private void btnBaoCao_Click(object sender, EventArgs e)
         {
@@ -74,8 +84,8 @@ namespace DoAn_Nhom7_QuanLySinhVien
             ToggleSidebar();
         }
 
-        private const int SidebarMinWidth = 50; 
-        private const int SidebarMaxWidth = 205; 
+        private const int SidebarMinWidth = 50;
+        private const int SidebarMaxWidth = 205;
 
         private void ToggleSidebar()
         {
@@ -88,7 +98,7 @@ namespace DoAn_Nhom7_QuanLySinhVien
                 panelSidebar.Width = SidebarMaxWidth;
             }
 
-            AdjustFormSize(); 
+            AdjustFormSize();
         }
 
 
@@ -98,9 +108,8 @@ namespace DoAn_Nhom7_QuanLySinhVien
             {
                 frm.Location = new Point(panelSidebar.Width, frm.Location.Y);
                 frm.Width = this.ClientSize.Width - panelSidebar.Width;
-                frm.Height = this.ClientSize.Height; 
+                frm.Height = this.ClientSize.Height;
             }
         }
-
     }
 }

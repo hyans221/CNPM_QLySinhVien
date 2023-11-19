@@ -91,7 +91,6 @@
             this.Panel3.ShadowDecoration.Parent = this.Panel3;
             this.Panel3.Size = new System.Drawing.Size(931, 295);
             this.Panel3.TabIndex = 25;
-            this.Panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.Guna2Panel3_Paint);
             // 
             // btnXoa
             // 
@@ -108,6 +107,7 @@
             this.btnXoa.Size = new System.Drawing.Size(134, 43);
             this.btnXoa.TabIndex = 44;
             this.btnXoa.Text = "Xoá";
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnReset
             // 
@@ -125,6 +125,7 @@
             this.btnReset.Size = new System.Drawing.Size(134, 43);
             this.btnReset.TabIndex = 43;
             this.btnReset.Text = "Reset";
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnSua
             // 
@@ -142,6 +143,7 @@
             this.btnSua.Size = new System.Drawing.Size(134, 43);
             this.btnSua.TabIndex = 42;
             this.btnSua.Text = "Sửa";
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnThem
             // 
@@ -158,6 +160,7 @@
             this.btnThem.Size = new System.Drawing.Size(134, 43);
             this.btnThem.TabIndex = 41;
             this.btnThem.Text = "Thêm";
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // txtSoDienThoai
             // 
@@ -510,6 +513,7 @@
             this.dgvSinhVien.ThemeStyle.RowsStyle.Height = 22;
             this.dgvSinhVien.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvSinhVien.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dgvSinhVien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSinhVien_CellClick);
             // 
             // frmSinhVien
             // 
