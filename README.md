@@ -86,5 +86,5 @@ Shows the breakdown of major functions and processes within the Student Manageme
 
 ## Acknowledgments
 
-This project was completed as part of the Software Engineering course at Ho Chi Minh University of Industry under the guidance of Professor Trần Vũ Đại. We appreciate the valuable feedback and support provided throughout the project development.
+This project was completed as part of the Software Engineering course at Ho Chi Minh University of Industry And Trade under the guidance of lecturer Trần Vũ Đại. We appreciate the valuable feedback and support provided throughout the project development.
 
