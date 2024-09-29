@@ -80,7 +80,3 @@ Shows the breakdown of major functions and processes within the Student Manageme
 - **Advanced Search Features**: Improve search capabilities for student and faculty records.
 - **Retake and Re-enrollment Features**: Add support for managing retake courses and re-enrollment processes for students.
 
-## Acknowledgments
-
-This project was completed as part of the Software Engineering course at Ho Chi Minh University of Industry And Trade under the guidance of lecturer Trần Vũ Đại. We appreciate the valuable feedback and support provided throughout the project development.
-
