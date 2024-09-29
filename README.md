@@ -1,9 +1,5 @@
 # Student Management System
 
-## Overview
-
-The **Student Management System** is a desktop application developed to streamline the management of student data, course enrollments, faculty information, and departmental structures within an academic setting. This system supports key administrative tasks and provides role-based access for faculty and administrators, ensuring secure and efficient management of student records.
-
 ## Features
 
 - **Student Management**: Manage student details, including personal information, class enrollment, and contact details.
